@@ -1,3 +1,9 @@
+/* Base Styles */
+
+/* Layout Styles */
+
+/* Block Styles */
+
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -18,7 +24,7 @@ h2 {
   font-size: 110%;
 }
 
-.navbar {
+.header_navbar {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -34,7 +40,7 @@ nav li {
 }
 
 .blue-button,
-.signup-form form input[type="submit"] {
+.signup-form {
   background-color: blue;
   text-decoration: none;
   color: white;
@@ -43,4 +49,11 @@ nav li {
   width: 8em;
   text-align: center;
   display: inline-block;
+}
+
+/* Desktop Styles */
+@media (min-width: 550px) {
+}
+
+@media (min-width: 650px) {
 }
