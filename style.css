@@ -1,9 +1,4 @@
 /* Base Styles */
-
-/* Layout Styles */
-
-/* Block Styles */
-
 body {
   font-family: "Nunito", sans-serif;
 }
@@ -15,14 +10,42 @@ h2 {
 
 h1 {
   line-height: 0;
-  color: red;
+  color: rgb(22, 88, 231);
   font-size: 200%;
 }
 
 h2 {
-  font-weight: 100;
+  font-weight: 150;
   font-size: 110%;
 }
+
+.compare {
+  font-weight: 600;
+  font-size: 150%;
+  text-align: left;
+}
+
+/* Layout Styles */
+.programs,
+.falcuity {
+  list-style: none;
+}
+
+.program_list,
+.liststaff {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row;
+}
+
+.compare_programs {
+  background-color: rgba(128, 128, 128, 0.61);
+  border-radius: 4px;
+  position: relative;
+}
+/* Block Styles */
 
 .header_navbar {
   display: flex;
@@ -49,6 +72,12 @@ nav li {
   width: 8em;
   text-align: center;
   display: inline-block;
+}
+
+.calendar_img,
+.avatarimg,
+.reviews {
+  width: 50%;
 }
 
 /* Desktop Styles */
